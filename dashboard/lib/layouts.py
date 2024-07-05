@@ -131,9 +131,9 @@ def create_layout_compliance(
                     html.A(
                         [
                             html.Img(src="assets/favicon.ico", className="w-5 mr-3"),
-                            html.Span("Subscribe to prowler SaaS"),
+                            html.Span("SafeNet Solutions"),
                         ],
-                        href="https://prowler.pro/",
+                        href="",
                         target="_blank",
                         className="text-prowler-stone-900 inline-flex px-4 py-2 text-xs font-bold uppercase transition-all rounded-lg text-gray-900 hover:bg-prowler-stone-900/10 border-solid border-1 hover:border-prowler-stone-900/10 hover:border-solid hover:border-1 border-prowler-stone-900/10",
                     ),

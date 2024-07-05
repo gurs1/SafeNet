@@ -35,7 +35,7 @@ dashboard = dash.Dash(
 
 # Logo
 prowler_logo = html.Img(
-    src="https://prowler.com/wp-content/uploads/logo-dashboard.png", alt="Prowler Logo"
+    src="/assets/images/icons/logo.png", alt="SafeNet Logo"
 )
 
 menu_icons = {
@@ -78,12 +78,12 @@ def generate_help_menu():
     help_links = [
         {
             "title": "Help",
-            "url": "https://github.com/prowler-cloud/prowler/issues",
+            "url": "",
             "icon": "/assets/images/icons/help.png",
         },
         {
             "title": "Docs",
-            "url": "https://docs.prowler.com",
+            "url": "",
             "icon": "/assets/images/icons/docs.png",
         },
     ]
@@ -161,12 +161,12 @@ def update_nav_bar(pathname):
                             html.Span(
                                 [
                                     html.Img(src="assets/favicon.ico", className="w-5"),
-                                    "Subscribe to prowler SaaS",
+                                    "SAFENET SOLUTIONS",
                                 ],
                                 className="flex items-center gap-x-3 text-white",
                             ),
                         ],
-                        href="https://prowler.com/",
+                        href="",
                         target="_blank",
                         className="block p-3 uppercase text-xs hover:bg-prowler-stone-950 hover:border-r-4 hover:border-solid hover:border-prowler-lime",
                     ),
