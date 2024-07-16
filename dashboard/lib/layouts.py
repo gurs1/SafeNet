@@ -61,23 +61,33 @@ def create_layout_overview(
                 className="grid gap-x-4 mb-[30px] sm:grid-cols-2 lg:grid-cols-4",
             ),
             html.H4(
+                "Count of Findings by status",
+                className="text-prowler-stone-900 text-lg font-bold mb-[30px]",
+            ),
+            html.Div(
+                [
+                    html.Div(
+                        className="flex flex-col col-span-12 sm:col-span-6 lg:col-span-6 gap-y-4",
+                        id="status_graph",
+                    ),
+                    html.Div(
+                        className="flex flex-col col-span-12 sm:col-span-6 lg:col-span-6 gap-y-4",
+                        id="line_plot",
+                    ),
+                ],
+                className="grid gap-x-4 grid-cols-12 mb-[30px]",
+            ),
+             html.H4(
                 "Count of Findings by severity",
                 className="text-prowler-stone-900 text-lg font-bold mb-[30px]",
             ),
             html.Div(
                 [
                     html.Div(
-                        className="flex flex-col col-span-12 sm:col-span-6 lg:col-span-3 gap-y-4",
-                        id="status_graph",
-                    ),
-                    html.Div(
-                        className="flex flex-col col-span-12 sm:col-span-6 lg:col-span-3 gap-y-4",
+                        className="flex flex-col col-span-12 gap-y-4",
                         id="two_pie_chart",
                     ),
-                    html.Div(
-                        className="flex flex-col col-span-12 sm:col-span-6 lg:col-span-6 col-end-13 gap-y-4",
-                        id="line_plot",
-                    ),
+                    
                 ],
                 className="grid gap-x-4 grid-cols-12 mb-[30px]",
             ),
