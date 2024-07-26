@@ -2,7 +2,7 @@
  
 </p>
 <p align="center">
-  <b><i>Prowler SaaS </b> and <b>Prowler Open Source</b> are as dynamic and adaptable as the environment they’re meant to protect. Trusted by the leaders in security.
+  <b><i>SafeNet Cloud Compliance tool is dynamic and adaptable as the environment they’re meant to protect. Trusted by the leaders in security.
 </p>
 <p align="center">
 <b>Learn more at <a href="https://karnajeetsawant12.wixsite.com/safenet-solutions">SafeNet.com</i></b>
